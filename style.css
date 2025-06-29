@@ -1,0 +1,68 @@
+* {
+    background-color: rgb(25, 25, 25);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.reset, .autoplay {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 7px 12px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.emoji {
+    border: 2px solid white;
+    padding: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+.confirmation-ctn{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 20px;
+    width: fit-content;
+}
+
+.confirmation-ctn button{
+    padding: 10px;
+    width: 50px;
+    margin-left: 10px;
+}
+
+.confirmation-ctn button:hover{
+    background-color: rgb(55, 55, 55);
+    color: white;
+}
+
+.hide-ctn{
+    display: none;
+}

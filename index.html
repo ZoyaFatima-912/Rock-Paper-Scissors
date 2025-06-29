@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+
+<body>
+    <div class="container">
+
+        <div class="parent">
+
+            <h1>Rock Paper Scissors</h1>
+
+            <button onclick="yourMove('rock')" class="emoji"><img src="rock-emoji.png" alt=""></button>
+            <!--so now you can just call the last function as it takes the value from the first one.-->
+
+            <button onclick="yourMove('paper')" class="emoji"><img src="paper-emoji.png" alt=""></button>
+
+            <button onclick="yourMove('scissors')" class="emoji"><img src="scissors-emoji.png" alt=""></button>
+
+            <p class="display-moves" style="font-size: 14px; padding-top: 7px;"></p>
+            <p class="wins" style="padding-bottom: 12px;"></p>
+            <p class="display-result" style="padding-bottom: 10px;"></p>
+
+            <button onclick="resetScore()" class="reset">Reset score</button>
+            <button onclick="autoplay()" class="autoplay">Start Autoplay</button>
+
+            <div class="confirmation-ctn hide-ctn">Are you sure you want to reset the score? <button class="yes-btn" style="margin-left: 30px;">Yes</button> <button class="no-btn">No</button></div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
